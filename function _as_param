@@ -1,0 +1,18 @@
+// function as param
+//UC 1
+void main (){
+getFunctionAsParam(addNumbers);
+getFunctionAsParam(multiplyNumbers);
+
+}
+getFunctionAsParam(Function i){
+
+}
+int addNumbers(no1, no2) {
+  return no1+no2;
+}
+
+
+int multiplyNumbers(no1, no2) {
+  return no1*no2;
+}
