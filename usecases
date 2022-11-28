@@ -1,0 +1,139 @@
+// FUNCTIONS
+//UC 1
+// void main (){
+//function calling
+myFunction();
+ }
+//function definition
+ myFunction(){
+  print('Hello World! I am learning dart.');
+ }
+// UC 2
+addNumbers(){
+   int no1 = 10;
+       int no2 = 20;
+       int sum = no1+no2;
+       print('The sum is $sum');
+ }
+
+ main(){
+   addNumbers();
+ }
+
+
+ // UC 3
+ addNumbers(){
+   int no1 = 10;
+   int no2 = 20;
+   int sum = no1+no2;
+   print('The sum is $sum');
+ }
+ main (){
+   int abc, xyz;
+   print('Hello World! I am learning dart.');
+   addNumbers();
+   for(int i=0;i<3;i++){
+     print("Iteration ${i+1}");
+   }
+   addNumbers();
+   if(true) {
+     print("condition is true");
+   }
+   }
+
+   //UC 4
+// function return type: void, int, double, string, bool, ClassType
+// int addNumbers(){
+   int no1 = 10;
+   int no2 = 20;
+   int sum = no1+no2;
+   return sum;
+ }
+ main(){
+   addNumbers();
+ }
+
+ //UC 5
+ //To make it descriptive.
+
+ int addNumbers(){
+
+   int no1 = 10;
+   int no2 = 20;
+   int sum = no1+no2;
+   return sum;
+ }
+ main(){
+   print('The sum is ${addNumbers()}');
+ }
+
+ //UC 6
+ //To make it descriptive and add some int.
+
+ int addNumbers(){
+   int no1 = 10;
+   int no2 = 20;
+   int sum = no1+no2;
+   return sum;
+ }
+ main(){
+   print('The sum is ${addNumbers()+40}');
+ }
+
+
+ //UC 7
+ //To make it descriptive and add some int.
+
+ int addNumbers(){
+   int no1 = 10;
+   int no2 = 20;
+   int sum = no1+no2;
+   return sum;
+ }
+ main(){
+   int result = addNumbers()+20;
+   print(result);
+ }
+
+ //UC 8
+//To make it descriptive and add some int.
+// we cannot use void because if we use void then it will not return function and we cannot use it in expression.
+// so we must return the function if want to use int result = (addNumbers()+no1)*no2+no3; expression.
+ int addNumbers(){
+   int no1 = 10;
+   int no2 = 20;
+   int sum = no1+no2;
+   return sum;
+ }
+ main(){
+   int no1 = 45, no2 =4, no3 = 23;
+   int result = (addNumbers()+no1)*no2+no3;
+   print(result);
+ }
+
+ //UC 9
+//To make it descriptive and add some int and make it simple.
+ int addNumbers(){
+   int no1 = 10, no2 = 20;
+   int sum = no1+no2;
+   return sum;
+ }
+ main(){
+   int no1 = 45, no2 =4, no3 = 23;
+   print('Hello Guys! I have done completed my task and as a reward I earned ${(addNumbers()+no1)*no2+no3} Dollars.');
+ }
+
+ 
+ //UC 10
+ addNumbers(){
+ int no1 = 20, no2=30;
+ if(no1<30){
+   return no1;}
+   else{
+     return no2;
+   }
+ }
+
+ main(){
+   addNumbers();
+ }
