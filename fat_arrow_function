@@ -1,0 +1,22 @@
+// A function that calculates the area of a triangle
+
+void areaOfaTriangle(int base, int height) {
+  var area = 0.5 * base * height;
+  print('Area of a triangle: $area');
+}
+
+void main() {
+  areaOfaTriangle( 7, 12);
+   
+}
+
+
+// A function that calculate area of a triangle 
+// using Fat arrow notation
+
+void areaOfaTriangle(int base, int height) =>
+  print('Area of a triangle: ${0.5 * base * height}');
+
+void main() {
+  areaOfaTriangle( 7, 12);
+}   
