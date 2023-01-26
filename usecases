@@ -1,6 +1,6 @@
 // FUNCTIONS
 //UC 1
-// void main (){
+void main (){
 //function calling
 myFunction();
  }
@@ -10,7 +10,7 @@ myFunction();
  }
 // UC 2
 addNumbers(){
-   int no1 = 10;
+       int no1 = 10;
        int no2 = 20;
        int sum = no1+no2;
        print('The sum is $sum');
@@ -43,7 +43,7 @@ addNumbers(){
 
    //UC 4
 // function return type: void, int, double, string, bool, ClassType
-// int addNumbers(){
+   int addNumbers(){
    int no1 = 10;
    int no2 = 20;
    int sum = no1+no2;
